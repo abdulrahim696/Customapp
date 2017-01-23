@@ -114,6 +114,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryHolder> implemen
     public void onClick(View view) {
 
     }
+    //this is shit
 
     @Override
     public void sendMessage() {
