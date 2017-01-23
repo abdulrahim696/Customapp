@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_colors"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="app.custom.com.customapp.Activities.MultipleSelectImageActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <Toolbar
+                android:id="@+id/multiselectToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/lavandergrey"
+
+                />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/recyclerview"
+            android:layout_marginTop="190dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="Upload"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/multiple"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_below="@+id/toolbar_layout"
+            android:layout_toLeftOf="@+id/upload"
+            android:layout_toStartOf="@+id/upload"
+            android:layout_marginRight="17dp"
+            android:layout_marginEnd="17dp" />
+
+    </RelativeLayout >
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+<!--<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context="app.custom.com.customapp.Activities.MultipleSelectImageActivity">
+
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recyclerview"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+    android:id="@+id/multiple"
+    android:layout_width="190dp"
+    android:layout_height="120dp"
+    android:src="@drawable/ic_menu_camera"
+    android:layout_marginLeft="85dp"
+   />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="Upload"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout >-->
